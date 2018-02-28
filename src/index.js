@@ -29,7 +29,6 @@ module.exports = function makeExchange(currency) {
          }
         if ((cur / 1) >= 1) {
             obj.P = Math.floor(cur / 1);
-            cur = cur - obj.P;
         }
 
         return obj;
